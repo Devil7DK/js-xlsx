@@ -14,3 +14,4 @@ before_script:
   - "cd test_files; make all; cd -" 
 after_success:
   - "make coveralls-spin"
+script: echo "Success!"
